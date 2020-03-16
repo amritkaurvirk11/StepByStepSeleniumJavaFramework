@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="41" failures="1" name="TestSuite" time="107.391" errors="0" skipped="40">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\amrit\workspace\SeleniumJavaFramework1-master\SeleniumJavaFramework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\amrit\workspace\SeleniumJavaFramework1-master\SeleniumJavaFramework"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\amrit\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Amrit_software\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Amrit_software\apache-maven-3.6.1\bin;C:\Program Files\Amrit_software\apache-ant-1.9.14\bin;C:\Program Files\Git\cmd;C:\Program Files\Amrit_software\;C:\Users\amrit\AppData\Local\Microsoft\WindowsApps;C:\Users\amrit\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\Amrit_software\apache-maven-3.6.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Amrit_software\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\amrit"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="amrit"/>
+    <property name="java.class.path" value="C:\Program Files\Amrit_software\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Amrit_software\apache-maven-3.6.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="demo.TestNGMultiBrowserDemo" name="setup" time="1.312">
+    <failure message="
+Parameter &apos;browserName&apos; is required by BeforeTest on method setup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserName&apos; is required by BeforeTest on method setup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+	at org.testng.TestRunner.run(TestRunner.java:497)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@3a4afd8d
+</system-out>
+  </testcase>
+  <testcase classname="demo.TestNGMultiBrowserDemo" name="setUpTest" time="1.314">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGMultiBrowserDemo" name="setUpTest" time="1.315">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGDependencyDemo" name="test2" time="1.337">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGGroupsDemo" name="test1" time="1.341">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGGroupsDemo" name="test2" time="1.341">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGGroupsDemo" name="test3" time="1.342">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGGroupsDemo" name="test4" time="1.342">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGIgnoreDemo" name="test1" time="1.342">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGIgnoreDemo" name="test2" time="1.342">
+    <skipped/>
+  </testcase>
+  <testcase classname="listeners.TestNGListenerDemo" name="test1" time="1.343">
+    <skipped/>
+  </testcase>
+  <testcase classname="listeners.TestNGListenerDemo" name="test2" time="1.343">
+    <skipped/>
+  </testcase>
+  <testcase classname="listeners.TestNGListenerDemo" name="test3" time="1.344">
+    <skipped/>
+  </testcase>
+  <testcase classname="listeners.TestNGListenerDemo2" name="test4" time="1.344">
+    <skipped/>
+  </testcase>
+  <testcase classname="listeners.TestNGListenerDemo2" name="test5" time="1.345">
+    <skipped/>
+  </testcase>
+  <testcase classname="listeners.TestNGListenerDemo2" name="test6" time="1.345">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGMultiBrowserDemo" name="test1" time="1.345">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGParallelTestingDemo" name="test1" time="1.349">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGParallelTestingDemo" name="test1" time="1.349">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGParallelTestingDemo" name="test1" time="1.349">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGParallelTestingDemo" name="test2" time="1.35">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGParallelTestingDemo" name="test3" time="1.351">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGParametersDemo" name="test3" time="1.351">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGParametersDemo" name="test4" time="1.351">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGPriorityDemo" name="one" time="1.351">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGRetryFailedDemo" name="test1" time="1.352">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGRetryFailedDemo" name="test2" time="1.352">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGRetryFailedDemo" name="test3" time="1.352">
+    <skipped/>
+  </testcase>
+  <testcase classname="test.TestNG_Demo" name="googleSearch" time="1.359">
+    <skipped/>
+  </testcase>
+  <testcase classname="test.TestNG_Demo2" name="googleSearch2" time="1.36">
+    <skipped/>
+  </testcase>
+  <testcase classname="test.TestNG_Demo2" name="googleSearch3" time="1.36">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.Test1" name="test1" time="5.944">
+    <skipped/>
+    <system-err>Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 15476
+Only local connections are allowed.
+Feb 18, 2020 3:08:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="demo.TestNGDependencyDemo" name="test3" time="6.633">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGDependencyDemo" name="test1" time="6.64">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGParametersDemo" name="test1" time="6.64">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGPriorityDemo" name="three" time="6.641">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGPriorityDemo" name="two" time="6.641">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGParametersDemo" name="test2" time="6.642">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGMultiBrowserDemo" name="teardown" time="6.643">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGMultiBrowserDemo" name="tearDownTest" time="6.647">
+    <skipped/>
+  </testcase>
+  <testcase classname="demo.TestNGMultiBrowserDemo" name="tearDownTest" time="6.647">
+    <skipped/>
+  </testcase>
+</testsuite>

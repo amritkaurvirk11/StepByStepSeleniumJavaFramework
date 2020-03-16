@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="demo.TestNGIgnoreDemo">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- demo.TestNGIgnoreDemo -->
+      <class name="demo.TestNGMultiBrowserDemo">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- demo.TestNGMultiBrowserDemo -->
+      <class name="demo.TestNGGroupsDemo">
+        <methods>
+          <include name="test3"/>
+          <include name="test2"/>
+          <include name="test4"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- demo.TestNGGroupsDemo -->
+      <class name="demo.TestNGRetryFailedDemo">
+        <methods>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- demo.TestNGRetryFailedDemo -->
+      <class name="demo.TestNGParallelTestingDemo">
+        <methods>
+          <include name="test1"/>
+          <include name="test3"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- demo.TestNGParallelTestingDemo -->
+      <class name="listeners.TestNGListenerDemo2">
+        <methods>
+          <include name="test6"/>
+          <include name="test4"/>
+          <include name="test5"/>
+        </methods>
+      </class> <!-- listeners.TestNGListenerDemo2 -->
+      <class name="demo.TestNGPriorityDemo">
+        <methods>
+          <include name="two"/>
+          <include name="three"/>
+          <include name="one"/>
+        </methods>
+      </class> <!-- demo.TestNGPriorityDemo -->
+      <class name="demo.Test1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- demo.Test1 -->
+      <class name="demo.TestNGDependencyDemo">
+        <methods>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- demo.TestNGDependencyDemo -->
+      <class name="listeners.TestNGListenerDemo">
+        <methods>
+          <include name="test1"/>
+          <include name="test3"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- listeners.TestNGListenerDemo -->
+      <class name="test.TestNG_Demo">
+        <methods>
+          <include name="googleSearch"/>
+          <include name="tearDownTest"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- test.TestNG_Demo -->
+      <class name="demo.TestNGParametersDemo">
+        <methods>
+          <include name="test1"/>
+          <include name="test3"/>
+          <include name="test4"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- demo.TestNGParametersDemo -->
+      <class name="test.TestNG_Demo2">
+        <methods>
+          <include name="googleSearch2"/>
+          <include name="googleSearch3"/>
+          <include name="tearDownTest"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- test.TestNG_Demo2 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
